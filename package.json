@@ -1,0 +1,27 @@
+{
+  "name": "sistema-gestion-suscripciones",
+  "version": "1.0.0",
+  "description": "Backend de gestión de suscripciones y facturación premium",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [
+    "typescript",
+    "solid",
+    "design-patterns"
+  ],
+  "author": "Ariadna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^20.19.43",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
