@@ -21,9 +21,3 @@ export class DatabaseConnection {
     return this.store.get(name) as Map<string, T>;
   }
 }
-
-// Prueba en main.ts de que el código corre bien
-
-const db1 = DatabaseConnection.getInstance();
-const db2 = DatabaseConnection.getInstance();
-console.log(db1 === db2); // true → es el mismo objeto en memoria
