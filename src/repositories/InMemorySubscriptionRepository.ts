@@ -1,6 +1,6 @@
 import { ISubscriptionRepository } from './IsubscriptionRepository';
 import { Subscription } from '../models/subscription';
-import { DatabaseConnection } from '../config/DatabaseConnection';
+import { DatabaseConnection } from '../config/databaseConnection';
 
 export class InMemorySubscriptionRepository implements ISubscriptionRepository {
   private subscriptions: Map<string, Subscription>;

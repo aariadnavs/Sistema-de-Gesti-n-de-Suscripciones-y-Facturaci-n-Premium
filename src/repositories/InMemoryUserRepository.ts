@@ -1,6 +1,6 @@
 import { IUserRepository } from './IuserRepository';
 import { User } from '../models/user';
-import { DatabaseConnection } from '../config/DatabaseConnection';
+import { DatabaseConnection } from '../config/databaseConnection';
 
 export class InMemoryUserRepository implements IUserRepository {
   private users: Map<string, User>;
